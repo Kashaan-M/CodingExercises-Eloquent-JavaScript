@@ -1,8 +1,10 @@
 /*
 =======  Given an array convert it to a list data structure  ======= 
-Note: List is a nested set of JavaScript Objects 
+
 IMPORTANT: Skipping Ahead, This function does pretty well job of converting array to  list except that when the array contains another array or JavaScript Object then this function fails. I think Regular Expressions will cover that but I am too lazy to revise my understanding of Regular expressions (atleast for now)
 
+
+Note: List is a nested set of JavaScript Objects 
   for example 
 
       let list = {
