@@ -1,12 +1,8 @@
 /*
 =======  Given an array convert it to a list data structure  ======= 
-
 IMPORTANT: Skipping Ahead, This function does pretty well job of converting array to  list except that when the array contains another array or JavaScript Object then this function fails. I think Regular Expressions will cover that but I am too lazy to revise my understanding of Regular expressions (atleast for now)
-
-
 Note: List is a nested set of JavaScript Objects 
   for example 
-
       let list = {
         value : 0,
         rest : {
@@ -18,7 +14,6 @@ Note: List is a nested set of JavaScript Objects
           }
         }
 TO DO: build a function arrayToList that does the following 
-
     ['a', 'b', 3, [1,2],'c' ]    ====>  list = {
                                           value : 'a',
                                           rest : {
