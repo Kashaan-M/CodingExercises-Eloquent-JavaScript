@@ -10,11 +10,9 @@ for example: let obj1 = {'name':'Kashaan','gender':'male'} ; let obj2 = {'name':
              obj1 === obj2   // false
              
              however let's say we have a third obj3 and we declare it like below
-
              let obj3 = obj1;
              obj3 == obj1   // true
              obj3 === obj1  // true
-
 One Problem
 ------------
 One Problem with this code is the result will still return true even when the arrangement of values in the two object
